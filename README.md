@@ -7,10 +7,11 @@ This project is dedicated to creating a personal portfolio/resume web app, whils
 The main objective is to keep myself active in the OSS space and to have a place where I can freely try new and old technology without consequence.
 
 Other than that:
+
 - Having a cool website definitelly doesn't hurt;
 - Foster good programming habits;
 - Learn new and interesting patterns;
-- Practice writing with a blog-like section.
+- Practice writing with a blog-like section ([current blog "post"](./blog/001/main.md)).
 
 ## Expectations (to self)
 
