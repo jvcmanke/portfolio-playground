@@ -19,6 +19,10 @@ The main problem is: my work computer is not around and I don't remember what I 
 
 ### General:
 
+**One Dark Theme:**
+
+This is my preferred theme for VSCode, it is just a bit different from the default `Dark +`, but at little less bright. It also has a great text highlighting color scheme.
+
 **Material Icon Theme:**
 
 I usually work with some standard file names and folder name that have a specific funcionality tied to them, like `index.ts`, `hooks.ts`, `components` folder, etc.
@@ -75,16 +79,24 @@ Here's the final config file:
 
 ```JSON
 {
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.guides.bracketPairs": true,
-  "editor.formatOnSave": true,
   "editor.acceptSuggestionOnEnter": "off",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": true,
+  "editor.tabSize": 2,
+  "explorer.compactFolders": false,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.colorTheme": "One Dark",
   "workbench.iconTheme": "material-icon-theme",
+
   "material-icon-theme.activeIconPack": "react",
   "material-icon-theme.folders.associations": {
     "blog": "docs"
-  }
+  },
+  "oneDark.italic": false
 }
 ```
 
