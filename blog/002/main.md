@@ -49,6 +49,26 @@ Last for this part I'll just delete some unneeded files and install some extensi
 - **Tailwind CSS IntelliSense**;
 - **PostCSS Language Support**.
 
+## The wireframe
+
+What I've done now is set up a basic unstyled wireframe, a basic header-content-footer style, with a nav on the right side of the header.
+
+```
++---------------------+
+|       Header        | <- Sticky, maybe shrink on scroll, with a basic nav
++---------------------+
+|                     |
+|       Content       | <- Whatever the page wants to render
+|                     |
++---------------------+
+|       Footer        | <- At the bottom, will likely contain some external links
++---------------------+
+```
+
+I've set up a simple structure that I'm accostumed with, where I scope my components by page inside a `components` folder and the shared ones I can put in a `shared` folders inside it.
+
+Each component has its own folder, as when they start getting more complex I like to split them into multiple files for styling, hooks, etc., so might as well keep it consistent from the jump.
+
 # What's next?
 
 TBD.

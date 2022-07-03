@@ -1,9 +1,11 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 
-const Home: NextPage = () => {
+import { Home } from "~/components/home/Home";
+
+const HomePage: NextPage = () => {
   return (
-    <div className="min-h-screen flex justify-center items-center">
+    <div>
       <Head>
         <title>Portfolio Playground</title>
         <meta
@@ -13,9 +15,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>Home</h1>
+      <Home />
     </div>
   );
 };
 
-export default Home;
+export default HomePage;
