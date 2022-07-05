@@ -78,6 +78,20 @@ Alright, just so this website is minimally useful to me I'll add some links to d
 
 I'll put both on the footer, plus a button on the header for the CV as well.
 
+## Deploy
+
+Deplaying a next app to vercel is so easy, just link your github account choose the project, and BAM, you're on the web.
+
+[See it for yourself](https://portfolio-playground-tau.vercel.app/)
+
 # What's next?
 
-TBD.
+Next up, I think I'll work on some design stuff. Make the website look good, choose some color scheme, choose a font, etc.
+
+Also, let's make the site at least a bit responsive.
+
+Knowing that things will start to get all over the place with `TailwindCSS`, there will probably be some need to refactor how we're applying styles. Which gives me a reason to check out tailwind's prettier plugin as well.
+
+---
+
+[Previous Post](../001/main.md)

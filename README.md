@@ -11,7 +11,7 @@ Other than that:
 - Having a cool website definitelly doesn't hurt;
 - Foster good programming habits;
 - Learn new and interesting patterns;
-- Practice writing with a blog-like section ([current blog "post"](./blog/001/main.md)).
+- Practice writing with a blog-like section ([current blog "post"](./blog/002/main.md)).
 
 ## Expectations (to self)
 

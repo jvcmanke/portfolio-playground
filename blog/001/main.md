@@ -103,3 +103,7 @@ Here's the final config file:
 # What's next?
 
 I think for the following episode (is that what we're calling it?) I should spin up a simple `Next.js` project and try deploying it to Vercel or something.
+
+---
+
+[Next Post](../002/main.md)
