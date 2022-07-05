@@ -69,6 +69,15 @@ I've set up a simple structure that I'm accostumed with, where I scope my compon
 
 Each component has its own folder, as when they start getting more complex I like to split them into multiple files for styling, hooks, etc., so might as well keep it consistent from the jump.
 
+## The "extra" functionality
+
+Alright, just so this website is minimally useful to me I'll add some links to download some stuff that I might need on the go:
+
+- My current CV (I'm planning on building a new web version eventually);
+- My current VSCode config (might as well).
+
+I'll put both on the footer, plus a button on the header for the CV as well.
+
 # What's next?
 
 TBD.
