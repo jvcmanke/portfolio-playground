@@ -82,7 +82,11 @@ I'll put both on the footer, plus a button on the header for the CV as well.
 
 Deplaying a next app to vercel is so easy, just link your github account choose the project, and BAM, you're on the web.
 
-[See it for yourself](https://portfolio-playground-tau.vercel.app/)
+[See it for yourself](https://jvcmanke.com/)
+
+## BONUS
+
+BTW I bought the [https://jvcmanke.com](https://jvcmanke.com/) domain! yay!
 
 # What's next?
 
