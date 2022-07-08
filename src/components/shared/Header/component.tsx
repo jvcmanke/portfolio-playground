@@ -1,4 +1,4 @@
-import { ChevronUpIcon } from "@heroicons/react/solid";
+import Image from "next/image";
 import Link from "next/link";
 import * as React from "react";
 
@@ -11,7 +11,7 @@ export const Header: React.FC<HeaderProps> = () => {
         <h1 className="text-lg">João Victor Manke</h1>
         <h3 className="text-sm">Full Stack Software Developer</h3>
       </div>
-      <div className="flex items-center gap-4 justify-self-end">
+      <div className="flex items-center gap-8 justify-self-end">
         <nav>
           <ul className="flex items-center gap-4">
             <li>
@@ -19,11 +19,26 @@ export const Header: React.FC<HeaderProps> = () => {
             </li>
           </ul>
         </nav>
-        <a href="/assets/CV.pdf" download="Resume-JoaoVictorManke.pdf">
-          <button className="rounded-full bg-slate-600 px-4 py-1 shadow-lg transition-colors hover:bg-slate-500">
-            Resume
-          </button>
-        </a>
+        <div className="flex items-center gap-4">
+          <a href="/assets/CV.pdf" download="Resume-JoaoVictorManke.pdf">
+            <button className="rounded-full bg-slate-600 px-4 py-1 shadow-lg transition-colors hover:bg-slate-500">
+              Resume
+            </button>
+          </a>
+          <a
+            className="flex justify-center underline"
+            href="https://github.com/jvcmanke"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <Image
+              width={32}
+              height={32}
+              src="/assets/GitHub-Mark-Light.png"
+              alt="GitHub Icon"
+            />
+          </a>
+        </div>
       </div>
     </header>
   );
