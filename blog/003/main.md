@@ -25,3 +25,11 @@ Well, we do need to run prettier on the files as well, I could just wait till I 
 ```
 npx prettier --write src
 ```
+
+## I can be your Icon
+
+Alright, enought tomfoolery, code styling doesn't count for this website.
+
+Let's get things going by replacing those "ARROW" texts with actual arrows. For this I'll use a icon library so I don't have to creat them myself.
+
+I don't have a prefered icon library, it usually depends what each project is already using or I tend to stick to a "sister library" of somthing I'm already using, as they usually work better together. This time around I chose `@heroicons/react` by the same guys from tailwind.
