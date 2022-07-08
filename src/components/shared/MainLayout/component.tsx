@@ -9,10 +9,10 @@ export type MainLayoutProps = {
 
 export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   return (
-    <div className="flex flex-col min-h-screen bg-white">
+    <div className="flex min-h-screen flex-col bg-white">
       <a id="top" />
       <Header />
-      <main className="flex-grow container mx-auto px-8">{children}</main>
+      <main className="container mx-auto flex-grow px-8">{children}</main>
       <Footer />
     </div>
   );

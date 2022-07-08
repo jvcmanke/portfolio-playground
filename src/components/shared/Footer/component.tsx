@@ -42,7 +42,7 @@ export const Footer: React.FC<FooterProps> = () => {
           </ul>
         </div>
       </div>
-      <p className="text-center py-1 px-2 text-sm">
+      <p className="py-1 px-2 text-center text-sm">
         Created by João Victor Manke
       </p>
     </footer>
