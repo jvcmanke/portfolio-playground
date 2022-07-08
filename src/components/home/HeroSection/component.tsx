@@ -1,3 +1,4 @@
+import { ChevronDownIcon } from "@heroicons/react/solid";
 import Image from "next/image";
 import Link from "next/link";
 import * as React from "react";
@@ -30,7 +31,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ nextSectionId }) => {
       </div>
       <div className="absolute bottom-8">
         <Link href={`#${nextSectionId}`} scroll>
-          ARROW
+          <ChevronDownIcon className="h-10 w-10 cursor-pointer text-black hover:opacity-75" />
         </Link>
       </div>
     </section>

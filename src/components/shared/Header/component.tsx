@@ -1,3 +1,4 @@
+import { ChevronUpIcon } from "@heroicons/react/solid";
 import Link from "next/link";
 import * as React from "react";
 
@@ -12,14 +13,9 @@ export const Header: React.FC<HeaderProps> = () => {
       </div>
       <div className="flex items-center gap-4 justify-self-end">
         <nav>
-          <ul className="flex gap-4">
+          <ul className="flex items-center gap-4">
             <li>
               <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="#top" scroll>
-                ARROW
-              </Link>
             </li>
           </ul>
         </nav>
