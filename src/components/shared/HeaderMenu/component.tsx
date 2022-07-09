@@ -21,7 +21,7 @@ export const HeaderMenu: React.FC<HeaderMenuProps> = ({ children }) => {
       <div
         className={`${
           isOpen ? "visible opacity-100" : "invisible opacity-0"
-        } absolute left-0 top-full w-screen bg-black transition-all sm:visible sm:static sm:w-auto`}
+        } absolute left-0 top-full w-screen bg-black transition-all sm:visible sm:static sm:w-auto sm:opacity-100`}
       >
         {children}
       </div>
