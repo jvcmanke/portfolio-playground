@@ -35,3 +35,14 @@ Let's get things going by replacing those "ARROW" texts with actual arrows. For 
 I don't have a prefered icon library, it usually depends what each project is already using or I tend to stick to a "sister library" of somthing I'm already using, as they usually work better together. This time around I chose `@heroicons/react` by the same guys from tailwind.
 
 I ended up scrapping the back to top arrow on the header, wasn't really fitting there IMO, but the downward one on the hero section looks great! Since we removed the arrow, I think a quick github icon link to the ol' profile on the header can be useful, so let's do that.
+
+## This is Legit(responsive)ness
+
+For my day job I typically build desktop only apps, therefore I'm more used to building "mobile last". It usually is much easier porting **to** mobile then **from** mobile as I'm not really a phone power user, desktop is much more intuitive to tell where should everything go.
+
+BUT, that doesn't mean no mobile version, and that's what we're doing next. Here's what I'm thinking:
+
+- Turn the nav into a hamburger menu (how creative!);
+- Get rid of the "next page" arrow;
+- Rearrange the hero section with picture first;
+- Stack the columns on footer.
