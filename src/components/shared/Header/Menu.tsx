@@ -1,11 +1,11 @@
 import * as React from "react";
 import { ChevronUpIcon, MenuIcon } from "@heroicons/react/solid";
 
-export type HeaderMenuProps = {
+export type MenuProps = {
   children: React.ReactNode;
 };
 
-export const HeaderMenu: React.FC<HeaderMenuProps> = ({ children }) => {
+export const Menu: React.FC<MenuProps> = ({ children }) => {
   const [isOpen, setOpen] = React.useState(false);
   const toggle = () => setOpen((value) => !value);
 

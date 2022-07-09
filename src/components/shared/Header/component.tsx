@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Link from "next/link";
 import * as React from "react";
-import { HeaderMenu } from "../HeaderMenu";
+import { Menu } from "./Menu";
+import { Nav } from "./Nav";
 
 export type HeaderProps = {};
 
@@ -15,15 +15,11 @@ export const Header: React.FC<HeaderProps> = () => {
         </h3>
       </div>
       <div className="h-full self-stretch justify-self-end">
-        <HeaderMenu>
+        <Menu>
           <div className="flex flex-col items-center gap-4 pb-4 sm:flex-row sm:gap-8 sm:pb-0">
-            <nav className="w-full sm:w-auto">
-              <ul className="flex flex-col items-center gap-0 sm:flex-row sm:gap-4">
-                <li className="w-full py-4 text-center hover:bg-gray-900 hover:opacity-75 sm:py-0 sm:hover:bg-black">
-                  <Link href="/">Home</Link>
-                </li>
-              </ul>
-            </nav>
+            <Nav>
+              <Nav.Link href="/">Home</Nav.Link>
+            </Nav>
             <div className="flex flex-col items-center gap-4 sm:flex-row">
               <a href="/assets/CV.pdf" download="Resume-JoaoVictorManke.pdf">
                 <button className="rounded-full bg-slate-600 px-4 py-1 shadow-lg transition-colors hover:bg-slate-500">
@@ -45,7 +41,7 @@ export const Header: React.FC<HeaderProps> = () => {
               </a>
             </div>
           </div>
-        </HeaderMenu>
+        </Menu>
       </div>
     </header>
   );
