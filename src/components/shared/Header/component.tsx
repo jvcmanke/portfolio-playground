@@ -5,9 +5,7 @@ import Image from "next/image";
 import { Menu } from "./Menu";
 import { Nav } from "./Nav";
 
-export type HeaderProps = {};
-
-export const Header: React.FC<HeaderProps> = () => {
+export const Header: React.FC = () => {
   return (
     <header className="fixed top-0 right-0 left-0 z-50 grid grid-cols-2 content-center bg-black px-6 text-white sm:px-8">
       <div className="flex items-baseline gap-2 self-center py-4">
