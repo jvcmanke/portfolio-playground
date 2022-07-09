@@ -1,11 +1,9 @@
 import * as React from "react";
 
-export type FooterProps = {};
-
-export const Footer: React.FC<FooterProps> = () => {
+export const Footer: React.FC = () => {
   return (
     <footer className="bg-black text-white">
-      <div className="grid grid-cols-3 content-center justify-items-center py-8 px-8">
+      <div className="grid grid-cols-1 sm:grid-cols-3 content-center justify-items-center py-8 px-8">
         <div />
         <div />
         <div className="text-center">
