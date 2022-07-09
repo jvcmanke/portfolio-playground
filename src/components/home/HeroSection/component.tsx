@@ -1,7 +1,8 @@
+import * as React from "react";
+
 import { ChevronDownIcon } from "@heroicons/react/solid";
 import Image from "next/image";
 import Link from "next/link";
-import * as React from "react";
 
 export type HeroSectionProps = {
   nextSectionId: string;

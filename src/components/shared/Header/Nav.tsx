@@ -1,5 +1,6 @@
-import Link from "next/link";
 import * as React from "react";
+
+import Link from "next/link";
 import { Url } from "url";
 
 export type NavLinkProps = {

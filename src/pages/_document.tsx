@@ -1,4 +1,6 @@
-import { Html, Head, Main, NextScript } from "next/document";
+import * as React from "react";
+
+import { Head, Html, Main, NextScript } from "next/document";
 
 const Document: React.FC = () => {
   return (
